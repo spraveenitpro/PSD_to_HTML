@@ -1,0 +1,200 @@
+/* Style.CSS 
+
+
+Colors
+======
+
+
+Black : #000000;
+Light Blue :  #00c0ff;
+Dark Blue : #0090bf;
+White: #ffffff;
+Lighter Grey: #eeeeee;
+Dark Grey: #444444;
+Darkest Grey: #222222;
+
+
+*/
+
+
+
+/* ===========================
+         General Styles
+============================== */
+
+
+html {
+
+     -webkit-font-smoothing:antiliased;
+     text-rendering:optimizelegibility;
+}
+
+
+body {
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #444444;
+
+}
+
+
+/* ===========================
+         Typography
+============================== */
+
+h1, h2, h3 {
+
+	font-weight: 300;
+	margin: 0;
+	line-height: 45px;
+}
+
+h4, h5, h6 {
+
+
+	font-weight: bold;
+	margin: 5px 0 5px 0;
+}
+
+
+h1 {
+
+	font-size: 48px;
+}
+
+h2 {
+
+	font-size: 24px;
+}
+
+h3 {
+
+	font-size: 30px;
+}
+
+h4 {
+
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+h5 {
+
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+p {
+
+      margin: 0 0 10px 0;
+}
+
+p.lead {
+
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+/* ===========================
+         Layouts
+============================== */
+
+
+.container {
+
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+	 
+}
+
+
+header {
+
+	 background-color: #000000;
+}
+
+
+#logo {
+
+ 
+    display: block;
+    padding: 17px 0 16px 5px;
+    float: left;
+	
+	 
+}
+
+
+#hero {
+
+	background-color: #00c0ff;
+}
+
+
+/* ===========================
+         Navigation
+============================== */
+
+nav ul {
+
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+nav ul li {
+
+list-style: none;
+float: left;
+}
+
+header nav ul li a {
+
+display: block;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+padding: 20px;
+border-left: solid 1px #333;
+
+
+}
+
+header nav ul li a:hover {
+
+	background-color: #222;
+}
+
+
+header nav ul li a:active {
+
+	-webkit-box-shadow:0 0 5px rgba(0,0,0,8) inset;
+	   -moz-box-shadow:0 0 5px rgba(0,0,0,8) inset;
+	        box-shadow:0 0 5px rgba(0,0,0,8) inset;
+}
+
+
+/* ===========================
+         Global Styles
+============================== */
+
+
+.clearfix:before, .clearfix:after {
+
+content: "";
+display: table;
+}
+
+.clearfix:after {
+
+	clear: both;
+}
+
+.clearfix {
+
+	zoom:1; /* for IE7 */
+}
