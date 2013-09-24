@@ -13,7 +13,7 @@ Lighter Grey: #eeeeee;
 Dark Grey: #444444;
 Darkest Grey: #222222;
 
-
+ 
 */
 
 
@@ -132,8 +132,27 @@ header {
 #hero {
 
 	background-color: #00c0ff;
+	color: #000;
 }
 
+#hero-title {
+
+	width: 520px;
+	padding: 60px 0;
+	float: left;
+}
+
+
+#hero-image {
+
+	float: right;
+	margin: 10px 0 -30px 0;
+}
+
+#call-to-action {
+
+	margin: 40px 0;
+}
 
 /* ===========================
          Navigation
@@ -197,4 +216,96 @@ display: table;
 .clearfix {
 
 	zoom:1; /* for IE7 */
+}
+
+
+/* ===========================
+         Buttons
+============================== */
+
+
+.btn {
+
+       width: auto;
+       background-color: #0090bf;
+       border: 1px solid #01789e;
+       color: #fff;
+       cursor: pointer;
+       display: inline-block;
+       margin: 0;
+       outline: none;
+       padding: 10px 20px 11px;
+       position: relative;
+       text-align: center;
+       text-decoration: none;
+
+       /* Fancy Box Shadows */
+
+       -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+              -box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+
+      /*CSS3 Animations*/
+
+       -webkit-transition:background-color 0.55s ease-in-out;
+          -moz-transition:background-color 0.15s ease-in-out;
+            -o-transition:background-color 0.15s ease-in-out;
+               transition:background-color 0.15s ease-in-out;
+
+
+}
+
+.btn:hover {
+
+	color: #fff;
+	background: #0066ff;
+}
+
+.btn:active {
+
+	   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
+          -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
+              -box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
+
+        color: #fff;
+
+
+}
+
+.btn-large {
+
+	padding: 20px 30px;
+	font-size: 24px;
+	font-weight: 200;
+}
+
+
+.btn-secondary {
+
+	font-size: 20px;
+}
+
+.btn-secondary:hover {
+
+text-decoration: underline;
+
+}
+
+.btn-secondary:active {
+
+ position: relative;
+ top: 1px;	
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active {
+
+	background: none;
+	border: none;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+	
+
+
+
 }
